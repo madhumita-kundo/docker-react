@@ -16,17 +16,17 @@ pipeline {
 
 		}
 
-		stage('compile'){
+		stage('build'){
 
 			steps {
 
-				sh 'docker build -t madhumita-kundo/docker-react -f Dockerfile .'
+				sh 'docker build -t madhumita-kundo/docker-react .'
 
 				}
 
 		}
 
-		stage('package'){
+		stage('test'){
 
 			steps {
 
