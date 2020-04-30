@@ -20,7 +20,7 @@ pipeline {
 
 			steps {
 
-				sh 'docker build -t madhumita-kundo/docker-react -f Dockerfile.dev .'
+				sh 'docker build -t madhumita-kundo/docker-react -f Dockerfile .'
 
 				}
 
